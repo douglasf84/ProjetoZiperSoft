@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoZiperSoft.Domain", "ProjetoZiperSoft.Domain\ProjetoZiperSoft.Domain.csproj", "{2163F099-E032-457C-A58D-A181E3D7EC8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoZiperSoft.Domain", "ProjetoZiperSoft.Domain\ProjetoZiperSoft.Domain.csproj", "{2163F099-E032-457C-A58D-A181E3D7EC8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoZiperSoft.Application", "ProjetoZiperSoft.Application\ProjetoZiperSoft.Application.csproj", "{DB1D6DE8-FEC1-4A64-B3A5-83ED2CD7AC26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoZiperSoft.Infrastructure", "ProjetoZiperSoft.Infrastructure\ProjetoZiperSoft.Infrastructure.csproj", "{02A206D1-B6EF-41FC-A382-8ABEACADB456}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoZiperSoft.Infrastructure", "ProjetoZiperSoft.Infrastructure\ProjetoZiperSoft.Infrastructure.csproj", "{02A206D1-B6EF-41FC-A382-8ABEACADB456}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoZiperSoft.CrossCutting", "ProjetoZiperSoft.CrossCutting\ProjetoZiperSoft.CrossCutting.csproj", "{DFE9DF43-B7C0-4BE7-B60D-DA7513ED4460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoZiperSoft.CrossCutting", "ProjetoZiperSoft.CrossCutting\ProjetoZiperSoft.CrossCutting.csproj", "{DFE9DF43-B7C0-4BE7-B60D-DA7513ED4460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoZiperSoft.API", "ProjetoZiperSoft.API\ProjetoZiperSoft.API.csproj", "{74080BD9-0D66-4F8D-9130-93BD579D12CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoZiperSoft.API", "ProjetoZiperSoft.API\ProjetoZiperSoft.API.csproj", "{74080BD9-0D66-4F8D-9130-93BD579D12CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoZiperSoft.Application", "ProjetoZiperSoft.Application\ProjetoZiperSoft.Application.csproj", "{562B09D2-11BD-4CC0-A0DE-51154536CDAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{2163F099-E032-457C-A58D-A181E3D7EC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2163F099-E032-457C-A58D-A181E3D7EC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2163F099-E032-457C-A58D-A181E3D7EC8B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DB1D6DE8-FEC1-4A64-B3A5-83ED2CD7AC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB1D6DE8-FEC1-4A64-B3A5-83ED2CD7AC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB1D6DE8-FEC1-4A64-B3A5-83ED2CD7AC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB1D6DE8-FEC1-4A64-B3A5-83ED2CD7AC26}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02A206D1-B6EF-41FC-A382-8ABEACADB456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{02A206D1-B6EF-41FC-A382-8ABEACADB456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02A206D1-B6EF-41FC-A382-8ABEACADB456}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{74080BD9-0D66-4F8D-9130-93BD579D12CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74080BD9-0D66-4F8D-9130-93BD579D12CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74080BD9-0D66-4F8D-9130-93BD579D12CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562B09D2-11BD-4CC0-A0DE-51154536CDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562B09D2-11BD-4CC0-A0DE-51154536CDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562B09D2-11BD-4CC0-A0DE-51154536CDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562B09D2-11BD-4CC0-A0DE-51154536CDAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
