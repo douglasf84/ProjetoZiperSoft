@@ -28,7 +28,7 @@ namespace ProjetoZiperSoft
             return _mapper.Map<ClientePJDTO>(clientePJEntity);
         }
 
-        public async Task<IEnumerable<ClientePJDTO>> GetClientesPJ()
+        public async Task<IEnumerable<ClientePJDTO>> GetAll()
         {
             var clientePJEntity = await _clientePJRepository.GetClientePJsAsync();
             return _mapper.Map<IEnumerable<ClientePJDTO>>(clientePJEntity);

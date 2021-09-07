@@ -5,7 +5,7 @@ namespace ProjetoZiperSoft
 {
     public interface IClientePFService
     {
-        Task<IEnumerable<ClientePFDTO>> GetClientesPF();
+        Task<IEnumerable<ClientePFDTO>> GetAll();
         Task<ClientePFDTO> GetById(int? id);
         Task Create(ClientePFDTO clientePFDTO);
         Task Update(ClientePFDTO clientePFDTO);

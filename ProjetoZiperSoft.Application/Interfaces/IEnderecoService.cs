@@ -5,7 +5,7 @@ namespace ProjetoZiperSoft
 {
     public interface IEnderecoService
     {
-        Task<IEnumerable<EnderecoDTO>> GetEnderecos();
+        Task<IEnumerable<EnderecoDTO>> GetAll();
         Task<EnderecoDTO> GetById(int? id);
         Task Create(EnderecoDTO enderecoDTO);
         Task Update(EnderecoDTO enderecoDTO);

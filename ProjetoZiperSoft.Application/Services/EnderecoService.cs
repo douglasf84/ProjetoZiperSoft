@@ -27,7 +27,7 @@ namespace ProjetoZiperSoft
             return _mapper.Map<EnderecoDTO>(enderecoEntity);
         }
 
-        public async Task<IEnumerable<EnderecoDTO>> GetEnderecos()
+        public async Task<IEnumerable<EnderecoDTO>> GetAll()
         {
             var enderecoEntity = await _enderecoRepoitory.GetEnderecoAsync();
             return _mapper.Map<IEnumerable<EnderecoDTO>>(enderecoEntity);
