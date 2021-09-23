@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoZiperSoft.Infrastruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoZiperSoft.CrossCutting", "ProjetoZiperSoft.CrossCutting\ProjetoZiperSoft.CrossCutting.csproj", "{DFE9DF43-B7C0-4BE7-B60D-DA7513ED4460}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoZiperSoft.API", "ProjetoZiperSoft.API\ProjetoZiperSoft.API.csproj", "{74080BD9-0D66-4F8D-9130-93BD579D12CA}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoZiperSoft.Application", "ProjetoZiperSoft.Application\ProjetoZiperSoft.Application.csproj", "{562B09D2-11BD-4CC0-A0DE-51154536CDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoZiperSoft.API", "ProjetoZiperSoft.API\ProjetoZiperSoft.API.csproj", "{4938F8B9-81F7-4B0A-920E-E3BC20297088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{DFE9DF43-B7C0-4BE7-B60D-DA7513ED4460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE9DF43-B7C0-4BE7-B60D-DA7513ED4460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE9DF43-B7C0-4BE7-B60D-DA7513ED4460}.Release|Any CPU.Build.0 = Release|Any CPU
-		{74080BD9-0D66-4F8D-9130-93BD579D12CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74080BD9-0D66-4F8D-9130-93BD579D12CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74080BD9-0D66-4F8D-9130-93BD579D12CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74080BD9-0D66-4F8D-9130-93BD579D12CA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{562B09D2-11BD-4CC0-A0DE-51154536CDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{562B09D2-11BD-4CC0-A0DE-51154536CDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{562B09D2-11BD-4CC0-A0DE-51154536CDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{562B09D2-11BD-4CC0-A0DE-51154536CDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4938F8B9-81F7-4B0A-920E-E3BC20297088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4938F8B9-81F7-4B0A-920E-E3BC20297088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4938F8B9-81F7-4B0A-920E-E3BC20297088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4938F8B9-81F7-4B0A-920E-E3BC20297088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

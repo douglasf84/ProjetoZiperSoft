@@ -8,6 +8,10 @@ namespace ProjetoZiperSoft
         public DbSet<ClientePJ> ClientesPJ { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
 
+        public DataContext()
+        {
+        }
+
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

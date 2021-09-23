@@ -19,8 +19,13 @@ namespace ProjetoZiperSoft
             return Ok(clientePFs);
         }
 
+        public async Task<IActionResult> Index()
+        {
+            return View(await _clientePFService.GetAll());
+        }
+
         [HttpGet("{id}", Name = "GetClientePF")]
-        public async Task<ActionResult<ClientePF>> Get(int id)
+        public async Task<ActionResult<ClientePFDTO>> Get(int id)
         {
             var clientePF = await _clientePFService.GetById(id);
 

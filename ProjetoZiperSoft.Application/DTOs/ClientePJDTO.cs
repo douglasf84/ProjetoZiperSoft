@@ -37,7 +37,7 @@ namespace ProjetoZiperSoft
 
         [MaxLength(1000)]
         [DataType(DataType.MultilineText)]
-        [StringLength(1000, MinimumLength = 5, ErrorMessage = "O Email deve ter no mínimo 5 e no máximo 1000 caracteres.")]
+        [StringLength(1000, MinimumLength = 5, ErrorMessage = "A Observação deve ter no mínimo 5 e no máximo 1000 caracteres.")]
         public string Observacao { get; set; }
 
         public string Foto { get; set; }

@@ -10,5 +10,6 @@ namespace ProjetoZiperSoft
     {
         public string Rg { get; private set; }
         public string Cpf { get; private set; }
+
     }
 }
